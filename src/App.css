@@ -1,0 +1,136 @@
+/* ............................Navbar.................... */
+.navbar{
+  height: 30px;
+  width: 100wh;
+  background-color: #386491;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  color: white;
+  padding: 10px;
+}
+
+.navlinks {
+  display: flex;
+list-style: none;
+}
+
+.navlinks li {
+  
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+  height: 28px;
+width: 120px;
+}
+
+.logo{
+  position: absolute;
+  left: 20px;
+ font-weight: 900;
+ font-size: 30px;
+}
+
+.navbar li:hover{
+  font-size: 22px;
+  transition: ease-in;
+}
+
+/* ...........................container............................ */
+
+.container{
+  /* height: 40px; */
+  min-height: 70%;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+.todo{
+  width: 80%;
+  /* height: 400px; */
+  min-height: 80vh;
+  background-color: #3865917d;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+/* ............................para............................ */
+
+p{
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+.p{
+  margin-bottom: 60px;
+  
+}
+
+/* ............................input............................ */
+
+.input{
+  width: 60%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  margin-top: 10px;
+  outline: none;
+
+}
+
+
+.todoflex{
+  display: flex;
+}
+
+.button{
+  width: 7%;
+  height: 46px;
+  border-radius: 5px;
+  border: none;
+  background-color: #6c006c;
+  margin: 15px 0px 0px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  color: white;
+}
+
+.button:active{
+  background-color: #3c0c3c;
+}
+.button:hover{
+  /* background-color: #790579; */
+  border: 3px solid #4b004b;
+}
+
+.edit{
+  width: 70px;
+  margin: 0px;
+  font-size: 10px;
+  background-color: rgb(29, 29, 188);
+}
+.edit:active{
+  background-color: blue;
+}
+.buttons{
+  display: flex;
+  gap: 5px;
+}
+
+.todoflex{
+  /* background-color: aqua; */
+  width: 100%;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  margin: 40px 0px;
+  gap: 5px;
+}
+
+.text{
+  width: 855px;
+}
